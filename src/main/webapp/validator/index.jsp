@@ -121,7 +121,7 @@
 
 <p>&nbsp;</p>
 
-<html:img page="/struts-power.gif" altKey="index.powered"/>
+<html:img page="/struts-power.gif" altKey="index.power"/>
 
 </body>
 </html:html>

@@ -1,3 +1,9 @@
-FROM docker.io/tomcat:9.0.87-jre21-temurin-jammy
-COPY target/struts-examples.war /usr/local/tomcat/webapps/
+FROM docker.io/azul/zulu-openjdk:21.0.1-21.30.15
+WORKDIR /app
+COPY target/extracted/dependencies/ ./
+COPY target/extracted/spring-boot-loader/ ./
+COPY target/extracted/snapshot-dependencies/ ./
+COPY target/extracted/application/ ./
+COPY entrypoint.sh ./
 
+ENTRYPOINT ["./entrypoint.sh"]
