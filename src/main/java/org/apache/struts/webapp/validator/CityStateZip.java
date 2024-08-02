@@ -50,12 +50,17 @@ public class CityStateZip implements java.io.Serializable {
         this.sStateProv = sStateProv;
     }
 
+    public String[] getZipPostal() {
+        return sZipPostal;
+    }
+
+    /*
     public String getZipPostal(int index) {
        return sZipPostal[index];
     }
+    */
 
     public void setZipPostal(int index, String value) {
         this.sZipPostal[index] = value;
     }
-
 }
