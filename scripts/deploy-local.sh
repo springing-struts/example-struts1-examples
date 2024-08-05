@@ -32,7 +32,7 @@ build() {
 deploy_local() {
   (cd $PROJECT_BASE_DIR
     $DOCKER build -t $CONTAINER_NAME . \
-    && $DOCKER stop -t 0 $CONTAINER_NAME \
+    && ($DOCKER stop -t 0 $CONTAINER_NAME || true) \
     && $DOCKER rm -f $CONTAINER_NAME \
     && $DOCKER run -d \
          -p 8080:8080 \
