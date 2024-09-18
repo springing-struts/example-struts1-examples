@@ -45,7 +45,7 @@
           <jsp:getProperty name="test1" property="booleanProperty" />
         </td>
         <td>
-          <%= test1_boolean %>
+         ${test1_boolean}
         </td>
       </tr>
       <tr>
@@ -54,7 +54,7 @@
           <jsp:getProperty name="test1" property="doubleProperty" />
         </td>
         <td>
-          <%= test1_double %>
+          ${test1_double}
         </td>
       </tr>
       <tr>
@@ -63,7 +63,7 @@
           <jsp:getProperty name="test1" property="floatProperty" />
         </td>
         <td>
-          <%= test1_float %>
+          ${test1_float}
         </td>
       </tr>
       <tr>
@@ -72,7 +72,7 @@
           <jsp:getProperty name="test1" property="intProperty" />
         </td>
         <td>
-          <%= test1_int %>
+          ${test1_int}
         </td>
       </tr>
       <tr>
@@ -81,7 +81,7 @@
           <jsp:getProperty name="test1" property="longProperty" />
         </td>
         <td>
-          <%= test1_long %>
+          ${test1_long}
         </td>
       </tr>
       <tr>
@@ -90,7 +90,7 @@
           <jsp:getProperty name="test1" property="shortProperty" />
         </td>
         <td>
-          <%= test1_short %>
+          ${test1_short}
         </td>
       </tr>
       <tr>
@@ -99,7 +99,7 @@
           <jsp:getProperty name="test1" property="stringProperty" />
         </td>
         <td>
-          <%= test1_string %>
+          ${test1_string}
         </td>
       </tr>
       <tr>
@@ -108,7 +108,7 @@
           <bean:write name="test1_value" />
         </td>
         <td>
-          <%= test1_value %>
+          ${test1_value}
         </td>
       </tr>
     </table>
@@ -133,7 +133,7 @@
           <jsp:getProperty name="test2" property="booleanProperty" />
         </td>
         <td>
-          <%= test2_boolean %>
+          ${test2_boolean}
         </td>
       </tr>
       <tr>
@@ -142,7 +142,7 @@
           <jsp:getProperty name="test2" property="doubleProperty" />
         </td>
         <td>
-          <%= test2_double %>
+          ${test2_double}
         </td>
       </tr>
       <tr>
@@ -151,7 +151,7 @@
           <jsp:getProperty name="test2" property="floatProperty" />
         </td>
         <td>
-          <%= test2_float %>
+          ${test2_float}
         </td>
       </tr>
       <tr>
@@ -160,7 +160,7 @@
           <jsp:getProperty name="test2" property="intProperty" />
         </td>
         <td>
-          <%= test2_int %>
+          ${test2_int}
         </td>
       </tr>
       <tr>
@@ -169,7 +169,7 @@
           <jsp:getProperty name="test2" property="longProperty" />
         </td>
         <td>
-          <%= test2_long %>
+          ${test2_long}
         </td>
       </tr>
       <tr>
@@ -178,7 +178,7 @@
           <jsp:getProperty name="test2" property="shortProperty" />
         </td>
         <td>
-          <%= test2_short %>
+          ${test2_short}
         </td>
       </tr>
       <tr>
@@ -187,7 +187,7 @@
           <jsp:getProperty name="test2" property="stringProperty" />
         </td>
         <td>
-          <%= test2_string %>
+          ${test2_string}
         </td>
       </tr>
     </table>

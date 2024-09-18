@@ -42,7 +42,7 @@
         <%= name %>
       </td>
       <td>
-        <%= head %>
+        ${head}
       </td>
     </tr><%
       }

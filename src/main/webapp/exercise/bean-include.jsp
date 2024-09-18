@@ -28,7 +28,7 @@
     <code>/welcome.html</code>directly, with no filtering.</p>
     <hr />
     <pre>
-<%= welcome %>
+${welcome}
 </pre>
     <hr />
     <p>Display the contents returned by invoking 
