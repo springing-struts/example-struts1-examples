@@ -28,7 +28,7 @@
     <code>WEB-INF/web.xml</code>resource for this web application, with no filtering.</p>
     <hr />
     <pre>
-<%= webxml %>
+${webxml}
 </pre>
     <hr />
     <p>Display the contents of the 

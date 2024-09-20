@@ -38,21 +38,21 @@
         <td>param1</td>
         <td>value1</td>
         <td>
-          <%= param1 %>
+          ${param1}
         </td>
       </tr>
       <tr>
         <td>param2</td>
         <td>value2</td>
         <td>
-          <%= param2 %>
+          ${param2}
         </td>
       </tr>
       <tr>
         <td>param3</td>
         <td>UNKNOWN VALUE</td>
         <td>
-          <%= param3 %>
+          ${param3}
         </td>
       </tr>
     </table>
