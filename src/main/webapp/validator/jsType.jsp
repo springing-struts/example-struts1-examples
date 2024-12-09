@@ -181,8 +181,8 @@
           <bean:message key="typeForm.radio.overall.satisfaction" />:</th>
           <td align="left">
             <logic:iterate id="satBean" name="satisfactionList" type="org.apache.struts.util.LabelValueBean">
-              <html:radio property="overallSatisfaction" value="<%=satBean.getValue()%>">
-                <%=satBean.getLabel()%>
+              <html:radio property="overallSatisfaction" value="${satBean.getValue()}">
+                ${satBean.getLabel()}
               </html:radio>
             </logic:iterate>
           </td>
@@ -199,7 +199,7 @@
           <bean:message key="typeForm.checkbox.used.languages" />:</th>
           <td align="left">
             <logic:iterate id="langBean" indexId="usedIndex" name="languageTypes" type="org.apache.struts.util.LabelValueBean">
-              <html:multibox property="usedLanguages" value="<%=langBean.getValue()%>" /><%=langBean.getLabel()%>
+              <html:multibox property="usedLanguages" value="${langBean.getValue()}" />${langBean.getLabel()}
             </logic:iterate>
           </td>
         </tr>
