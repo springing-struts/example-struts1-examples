@@ -53,91 +53,91 @@
         <tr>
           <td align="right"><b><bean:message key="label.name" bundle="i18nExample"/></b></td>
           <td align="left"><html:text property="name" size="20" errorStyle="background-color: yellow" /></td>
-          <td align="left"><font color="red"><html:errors property="name" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="name" header="empty" bundle="i18nExample"/></font>&nbsp;</td>
         </tr>
 
         <!-- Address Line 1 -->
         <tr>
           <td align="right"><b><bean:message key="label.address" bundle="i18nExample" /></b></td>
           <td align="left"><b><html:text property="address1" size="20" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="address1" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="address1" header="empty" bundle="i18nExample" /></font>&nbsp;</td>
         </tr>
 
         <!-- Address Line 2 -->
         <tr>
           <td>&nbsp;</td>
           <td align="left"><b><html:text property="address2" size="20" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="address2" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="address2" header="empty" bundle="i18nExample" /></font>&nbsp;</td>
         </tr>
 
         <!-- Address City -->
         <tr>
           <td align="right"><bean:message key="label.city" bundle="i18nExample" /></td>
           <td align="left"><b><html:text property="city" size="20" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="city" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="city" header="empty" bundle="i18nExample"/></font>&nbsp;</td>
         </tr>
 
         <!-- Address State -->
         <tr>
           <td align="right"><bean:message key="label.state" bundle="i18nExample" /></td>
           <td align="left"><b><html:text property="state" size="20" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="state" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="state" header="empty" bundle="i18nExample" /></font>&nbsp;</td>
         </tr>
 
         <!-- Address Zip/Post Code -->
         <tr>
           <td align="right"><bean:message key="label.zip" bundle="i18nExample" /></td>
           <td align="left"><b><html:text property="zip" size="10" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="zip" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="zip" header="empty" bundle="i18nExample" /></font>&nbsp;</td>
         </tr>
 
         <!-- Phone -->
         <tr>
           <td align="right"><b><bean:message key="label.phone" bundle="i18nExample" /></b></td>
           <td align="left"><b><html:text property="phone" size="10" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="phone" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="phone" header="empty" bundle="i18nExample" /></font>&nbsp;</td>
         </tr>
 
         <!-- Date of Birth -->
         <tr>
           <td align="right"><b><bean:message key="label.dob" bundle="i18nExample" /></b></td>
           <td align="left"><b><html:text property="dob" size="10" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="dob" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="dob" header="empty" bundle="i18nExample" /></font>&nbsp;</td>
         </tr>
 
         <!-- Age -->
         <tr>
           <td align="right"><b><bean:message key="label.age" bundle="i18nExample" /></b></td>
           <td align="left"><b><html:text property="age" size="20" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="age" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="age" header="empty" bundle="i18nExample" /></font>&nbsp;</td>
         </tr>
 
         <!-- Date of Employment -->
         <tr>
           <td align="right"><b><bean:message key="label.doe" bundle="i18nExample" /></b></td>
           <td align="left"><b><html:text property="doe" size="20" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="doe" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="doe" header="empty" bundle="i18nExample" /></font>&nbsp;</td>
         </tr>
 
         <!-- Employee Number -->
         <tr>
           <td align="right"><b><bean:message key="label.emplno" bundle="i18nExample" /></b></td>
           <td align="left"><b><html:text property="emplno" size="20" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="emplno" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="emplno" header="empty" bundle="i18nExample" /></font>&nbsp;</td>
         </tr>
 
         <!-- Annual Salary -->
         <tr>
           <td align="right"><b><bean:message key="label.salary" bundle="i18nExample" /></b></td>
           <td align="left"><b><html:text property="salary" size="20" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="salary" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="salary" header="empty" bundle="i18nExample"/></font>&nbsp;</td>
         </tr>
 
         <!-- Weekly Hours -->
         <tr>
           <td align="right"><b><bean:message key="label.hours" bundle="i18nExample" /></b></td>
           <td align="left"><b><html:text property="hours" size="20" errorStyle="background-color: yellow" /></b></td>
-          <td align="left"><font color="red"><html:errors property="hours" header="empty"/></font>&nbsp;</td>
+          <td align="left"><font color="red"><html:errors property="hours" header="empty" bundle="i18nExample"/></font>&nbsp;</td>
         </tr>
 
         <!-- Buttons -->
