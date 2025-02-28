@@ -37,9 +37,9 @@
   </repositories>
   <dependencies>
     <dependency>
-      <groupId>springing-struts</groupId>
+      <groupId>io.github.iwauo.springing-struts</groupId>
       <artifactId>struts1-core</artifactId>
-      <version>1.0.0</version>
+      <version>0.0.2</version>
     </dependency>
     <dependency>
       <groupId>commons-beanutils</groupId>
@@ -57,6 +57,13 @@
         </resource>
     </resources>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <parameters>true</parameters>
+        </configuration>
+      </plugin>
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>

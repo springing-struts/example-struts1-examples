@@ -19,7 +19,7 @@ build() {
       dependency:purge-local-repository \
         -DreResolve=false \
         -DactTransitively=false \
-        -DmanualInclude='springing-struts' \
+        -DmanualInclude='io.github.iwauo.springing-struts' \
       package -U \
       spring-boot:repackage \
     && java \
