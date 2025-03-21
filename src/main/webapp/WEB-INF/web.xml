@@ -63,6 +63,11 @@
         </init-param>
 
         <init-param>
+            <param-name>config/tiles</param-name>
+            <param-value>/WEB-INF/tiles/struts-config.xml</param-value>
+        </init-param>
+
+        <init-param>
             <param-name>debug</param-name>
             <param-value>2</param-value>
         </init-param>

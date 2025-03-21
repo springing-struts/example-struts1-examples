@@ -1,0 +1,7 @@
+<definitions>
+  <definition name="templateDefinition" path="/tiles/layout.jsp">
+    <put name="title"  value="This is the title." />
+    <put name="header" value="header.jsp" />
+    <put name="body"   value="body.jsp" />
+  </definition>
+</definitions>

@@ -41,6 +41,8 @@
     <li><html:link module="/validator" action="/welcome">Validator and Localization examples</html:link></li>
 
     <li><html:link module="/dispatch" action="/welcome">Dispatch Action examples</html:link></li>
+
+    <li><html:link module="/tiles" action="/welcome">Tiles template examples</html:link></li>
   </ul>
 
   <p>These modules follow the "learn by example" school. Be sure to "look under the hood" to see how it's done.</p>
