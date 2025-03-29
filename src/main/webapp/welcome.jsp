@@ -43,6 +43,8 @@
     <li><html:link module="/dispatch" action="/welcome">Dispatch Action examples</html:link></li>
 
     <li><html:link module="/tiles" action="/welcome">Tiles template examples</html:link></li>
+
+    <li><html:link module="/mailreader" action="/Welcome">Struts Mailreader: A sample CRUD application</html:link></li>
   </ul>
 
   <p>These modules follow the "learn by example" school. Be sure to "look under the hood" to see how it's done.</p>
@@ -61,6 +63,9 @@
 
   <p>The Struts Validator uses the same resource bundles as the rest of your Struts application, making localization easy to do. These examples show you how to use the validator with and without JavaScript, as well as how to localize your validations.</p>
 
+  <h2><html:link module="/mailreader" action="/Welcome">Struts Mailreader</html:link></h2>
+  <p><strong>Struts Mailreader</strong> is a starter business application, much like the one most of you need to develop.</p>
+
   <h2>But, wait, there's more ...</h2>
 
   <p>In addion to this application, there are three other applications available for you to install:</p>
@@ -69,14 +74,12 @@
     <li>Struts Blank</li>
 
     <li>Struts Cookbook (more examples)</li>
-
-    <li>Struts MailReader</li>
   </ul>
 
   <p><strong>Struts Blank</strong> is an application template. Explode this WAR
-  under your own application's name, and you can start coding! <strong>Struts
-  Mailreader</strong> is a starter business application, much like the one most
-  of you need to develop. <strong>Struts Cookbook</strong> is a collection of
+  under your own application's name, and you can start coding!
+  </p>
+  <p><strong>Struts Cookbook</strong> is a collection of
   examples which demonstrate some of the more frequently used Struts Tags.</p>
   
   <hr />
