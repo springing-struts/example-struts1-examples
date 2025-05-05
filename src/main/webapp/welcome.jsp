@@ -68,11 +68,10 @@
 
   <h2>But, wait, there's more ...</h2>
 
-  <p>In addion to this application, there are three other applications available for you to install:</p>
+  <p>In addition to this application, there are three other applications available for you to install:</p>
 
   <ul>
     <li>Struts Blank</li>
-
     <li>Struts Cookbook (more examples)</li>
   </ul>
 
