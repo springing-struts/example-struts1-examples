@@ -36,7 +36,7 @@ start() {
        -p 8080:8080 \
        -p 5005:5005 \
        --name $CONTAINER_NAME \
-       --env DEBUG_PORT=5005 \
+       --env DEBUG_PORT=${DEBUG_PORT} \
        $CONTAINER_NAME \
   && $DOCKER logs -f $CONTAINER_NAME
 }

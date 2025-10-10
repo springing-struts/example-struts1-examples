@@ -27,9 +27,9 @@ How to run
 
 - Run the following command.
 
-```bash
-./scripts/deploy-local.sh
-```
+  ```bash
+  ./scripts/deploy-local.sh
+  ```
 
 - Open the following URL with your browser.
 

@@ -1,4 +1,4 @@
-FROM docker.io/azul/zulu-openjdk:21.0.1-21.30.15
+FROM docker.io/azul/zulu-openjdk:21.0.8-21.44
 WORKDIR /app
 COPY target/extracted/dependencies/ ./
 COPY target/extracted/spring-boot-loader/ ./
